@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "semistandard | snazzy"
   },
   "author": "mic.com",
   "license": "MIT",
@@ -15,5 +16,9 @@
     "url": "https://github.com/micnews/deku-pure-grid/issues"
   },
   "homepage": "https://github.com/micnews/deku-pure-grid#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "semistandard-deku": "github:micnews/semistandard#deku",
+    "snazzy": "^2.0.1"
+  }
 }
