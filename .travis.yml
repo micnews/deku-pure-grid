@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '0.10'
+- '4'
+env:
+  matrix:
+  - CC=clang CXX=clang++ npm_config_clang=1
+notifications:
+  slack:
+    secure: M1BwVvs9pq8i4F51SCq6wzAaLdbt+8Ag7ZFEcTseia7PzfsCqQjbO/X/aiWHzGQq9Q628sUoYiXsjwBeV/SZxbGyARmU2AMEd9H0Fxp83GWE2IQNWf5YHa3sWJ8x2A3hu0QYzEzgcJX6vWnSplSUkRWqDejw8BlTBPn17YhTbdWI8kGPe0Bw8IL442QdBA7zsjFzSn2cDGe+yCBb/L8QkAfYK3yntjfrTyoVknoEZMhaIJWMLIt1cB83NdbdVNrIN7PojkWUOxs8zK0Wb3VFitT4JgGWIBG+JPbN0R4HggI4xpwy5wEfpunHu2P1IXKndm2nT/LQZiVVlNt7KtZze+KI5LTkG5G+bHQBglvD6X+/OTgHMN2ruAeL4bN6g47zfBWm3pSU6jFywA0QMD7vaJaN4/1CRZm36MZuu+7yVl0PbcNPlrJ0NApIq/tLo+xZjaxMwSWI8FB8b4TS4U/9sUAn5ALjZQhvK1MbizlEv8w1uHVvjURPSi84iADADYVpaefx0Xgmk+VPuYwp48EH6oERHBr2Vapn055hE2DpfgyRkpRj2T/EhUfruaNKH/yMh6v8t4eJhU9BI0NK04N4QAmZ22xWLZpqX91cSZj59SAPyZLTyQg5Ke95fOzfkGjUSlwo2HbSRhNphXOWr1bHy0BHJQywGZMT5IwCxu5SZYk=
