@@ -7,6 +7,31 @@ Grid component for [deku](https://github.com/dekujs/deku), using [pure.css](http
 npm install deku-pure-grid
 ```
 
+## Grid component
+The main container for your grid.
+
+## Cell component
+The container for each grid cell.
+
+### Attributes
+
+#### `size=[value]`
+Adds class `pure-u-[value]`. Default, no media query.
+
+#### `smSize=[value]`
+Adds class `pure-u-small-[value]`. --small-min media query.
+
+#### `mdSize=[value]`
+Adds class `pure-u-medium-[value]`. --medium-min media query.
+
+#### `lgSize=[value]`
+Adds class `pure-u-large-[value]`. --large-min media query.
+
+#### `xlgSize=[value]`
+Adds class `pure-u-x-large-[value]`. --x-large-min media query.
+
+All attributes takes a value specifying the size of the cell, using format: `n-n`, where `1-2` mean cell takes up 50% width, `3-4` takes up 75% width etc. See [pure.css documentation](http://purecss.io/grids/) for details.
+
 ## Example
 ```js
 import { Grid, Cell } from 'deku-pure-grid';
