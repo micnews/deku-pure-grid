@@ -1,0 +1,19 @@
+{
+  "name": "deku-pure-grid",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mic.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micnews/deku-pure-grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/micnews/deku-pure-grid/issues"
+  },
+  "homepage": "https://github.com/micnews/deku-pure-grid#readme",
+  "description": ""
+}
