@@ -21,7 +21,8 @@
     "babel-plugin-transform-react-jsx": "^6.1.18",
     "babel-preset-es2015": "^6.1.18",
     "babelify": "^7.2.0",
-    "magic-virtual-element": "^1.0.6"
+    "magic-virtual-element": "^1.0.6",
+    "purecss": "^0.6.0"
   },
   "devDependencies": {
     "babel-tape-runner": "^1.3.0",
