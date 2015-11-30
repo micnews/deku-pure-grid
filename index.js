@@ -34,9 +34,5 @@ export let Cell = {
 };
 
 function propsClasses (props) {
-  if (!props.class) {
-    return '';
-  }
-
-  return props.class.split(' ');
+  return (props.class || '').split(' ');
 }
