@@ -10,10 +10,18 @@ npm install deku-pure-grid
 ## Grid component
 The main container for your grid.
 
+### Attributes
+
+### `class=[class list]`
+Adds any custom class to the grid element.
+
 ## Cell component
 The container for each grid cell.
 
 ### Attributes
+
+### `class=[class list]`
+Adds any custom class to the cell element.
 
 #### `size=[value]`
 Adds class `pure-u-[value]`. Default, no media query.
@@ -30,7 +38,7 @@ Adds class `pure-u-large-[value]`. --large-min media query.
 #### `xlgSize=[value]`
 Adds class `pure-u-x-large-[value]`. --x-large-min media query.
 
-All attributes takes a value specifying the size of the cell, using format: `n-n`, where `1-2` mean cell takes up 50% width, `3-4` takes up 75% width etc. See [pure.css documentation](http://purecss.io/grids/) for details.
+All size-attributes takes a value specifying the size of the cell, using format: `n-n`, where `1-2` mean cell takes up 50% width, `3-4` takes up 75% width etc. See [pure.css documentation](http://purecss.io/grids/) for details.
 
 ## Example
 ```js

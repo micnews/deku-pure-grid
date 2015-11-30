@@ -5,7 +5,7 @@ import element from 'magic-virtual-element';
 
 export let Grid = {
   render: function ({ props }) {
-    return (<div class='pure-g'>{props.children}</div>);
+    return (<div class={['pure-g', propsClasses(props)]}>{props.children}</div>);
   }
 };
 
@@ -29,6 +29,14 @@ export let Cell = {
       classes.push('pure-u-x-large-' + props.xlgSize);
     }
 
-    return (<div class={classes}>{props.children}</div>);
+    return (<div class={[classes, propsClasses(props)]}>{props.children}</div>);
   }
 };
+
+function propsClasses (props) {
+  if (!props.class) {
+    return '';
+  }
+
+  return props.class.split(' ');
+}
